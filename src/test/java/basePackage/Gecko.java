@@ -9,6 +9,7 @@ public class Gecko {
 		System.setProperty("webdriver.gecko.driver", "E:\\SoftwareTesting LecturesData\\Selenium\\gecko\\geckodriver.exe");
 		
 		WebDriver driver=new FirefoxDriver();
+		driver.manage().window.maximise();
 		driver.get("https://select.finology.in/");
 
 	}
